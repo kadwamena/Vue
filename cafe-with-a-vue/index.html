@@ -20,7 +20,7 @@
 
       <section class="menu">
         <h2>Menu</h2>
-        <div v-for="item in simpleMenu" :key="item.name" class="menu-item">
+        <!-- <div v-for="item in simpleMenu" :key="item.name" class="menu-item">
           <img
             class="menu-item__image"
             :src="item.image.source"
@@ -43,7 +43,8 @@
                 Add to Shopping Cart
               </button>
             </div>
-          </div>
+          </div> -->
+          
         </div>
       </section>
 
@@ -80,7 +81,7 @@
             {
               name: 'Crossiant',
               image: {
-                source: './images/crossiant.jpg',
+                source: '/images/crossiant.jpg',
                 alt: 'A crossiant'
               },
               inStock: true,
@@ -89,7 +90,7 @@
             {
               name: 'French Baguette',
               image: {
-                source: './images/french-baguette.jpeg',
+                source: '/images/french-baguette.jpeg',
                 alt: 'Four French Baguettes'
               },
               inStock: true,
@@ -98,7 +99,7 @@
             {
               name: 'Éclair',
               image: {
-                source: './images/eclair.jpg',
+                source: '/images/eclair.jpg',
                 alt: 'Chocolate Éclair'
               },
               inStock: false,
