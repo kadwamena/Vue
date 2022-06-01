@@ -24,7 +24,7 @@ export default {
     },
     quantity: {
       type: Number,
-      required: true
+      default: 1
     }
   },
   data() {
