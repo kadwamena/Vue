@@ -2,10 +2,6 @@
 export default {
   name: 'MenuItem',
   props: {
-    // addToShoppingCart: {
-    //   type: Function,
-    //   required: true
-    // },
     image: {
       type: Object,
       required: true
