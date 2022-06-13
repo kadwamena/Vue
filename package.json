@@ -2,21 +2,27 @@
   "name": "openclassrooms-vue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": "Ben Hong <ben@bencodezen.io>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OpenClassrooms-Student-Center/Vue.git"
+  "main": "index.js",
+  "dependencies": {
+    "vuex": "^3.4.0"
   },
-  "keywords": [
-    "vuejs"
-  ],
-  "author": "Ben Hong <ben@bencodezen.io>",
-  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli-plugin-vuex": "~4.5.15"
+  },
   "bugs": {
     "url": "https://github.com/OpenClassrooms-Student-Center/Vue/issues"
   },
-  "homepage": "https://github.com/OpenClassrooms-Student-Center/Vue#readme"
+  "homepage": "https://github.com/OpenClassrooms-Student-Center/Vue#readme",
+  "keywords": [
+    "vuejs"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenClassrooms-Student-Center/Vue.git"
+  }
 }
