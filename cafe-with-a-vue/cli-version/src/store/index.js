@@ -47,7 +47,15 @@ export default new Vuex.Store({
       return `Copyright ${state.restaurantName} ${currentYear}`
     }
   },
-  mutations: {},
-  actions: {},
+  mutations: {
+    ADD_TO_SHOPPING_CART(state, quantity = 1) {
+      state.shoppingCart += Number(quantity)
+    }
+  },
+  actions: {
+    updateShoppingCart(context, quantity) {
+      context.commit('ADD_TO_SHOPPING_CART', quantity)
+    }
+  },
   modules: {}
 })
